@@ -50,7 +50,7 @@ public class Storbook {
 			price=price-(price*alienDiscount);
 			showprice(price);
 		}else {
-			prln("Sorry, We can't serve you!!");
+			prln("Sorry, we n We can't serve you!!");
 		}
 		
 		
@@ -58,7 +58,7 @@ public class Storbook {
 	
 	static void showprice(double pricee) {
 		prln("Your total payable amount: "+pricee);
-		prln("\n------------THANK YOU FOR SHOPPING FROM OUR BOOKSTORE--------------");
+		prln("\n------------THANK YOU FOR SHOPPING FROM OUR BOOKSTORE change--------------");
 	}
 	
 	
